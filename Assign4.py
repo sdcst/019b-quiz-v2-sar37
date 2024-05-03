@@ -18,3 +18,18 @@ invitations to send.
 This program will require you to incorporate everything we
 have learned so far.
 """
+peopleList = []
+
+n = input("enter a first and last name")
+
+while n != "":
+    if n == peopleList:
+        print("That name is already on the list")
+
+    else:
+        peopleList.append(n)
+        x = sorted(peopleList)
+        print(x)
+        print(peopleList)
+        break
+    
